@@ -1,11 +1,17 @@
 {
   "name": "projeto-piloto-restful",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Webservice projeto piloto",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Danilo Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "mongoose": "^4.8.5",
+    "validator": "^7.0.0"
+  }
 }
